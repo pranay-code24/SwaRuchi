@@ -1,113 +1,56 @@
-🚀 The Problem & Our Solution
+<h1 align="center">
+  SwaRuchi 🧠
+</h1>
 
-The current landscape for public sector upskilling faces critical challenges: iGOT catalog overload, lack of baseline diagnostics, unexplained test scores, and siloed digital/physical training streams.
+<p align="center">
+  <b>A Smart Upskilling Platform for the National Statistical Workforce.</b>
+</p>
 
-SwaRuchi solves this by delivering a unified, AI-driven learning ecosystem. We automate role profiling across MoSPI's 4 FRAC pillars, provide zero-hallucination diagnostic assessments, and synchronize asynchronous iGOT modules with live NSSTA cohorts to create a seamless hybrid learning roadmap.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-Black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+</p>
 
-✨ Key Features & Innovation
+---
 
-🎯 Precision Upskilling: Deficit-based training assignment derived from adaptive baseline diagnostics to eliminate redundant learning hours.
+## 🚀 The Problem & Our Solution
+In the face of iGOT catalog overload, missing diagnostic self-awareness, and siloed training streams, upskilling the national workforce requires a smarter approach. **SwaRuchi** solves these challenges by providing:
+* **Automated Role Profiling:** Competency mapping across MoSPI's 4 FRAC pillars using deterministic, zero-hallucination logic.
+* **Adaptive Diagnostics:** Baseline skills assessments that eliminate thousands of hours of redundant training to generate personalized pathways.
+* **Automated Quiz Creation:** Ingesting manuals and multimedia to generate structured, non-repeating MCQ banks via Whisper ASR.
+* **Unified Hybrid Learning:** Syncing asynchronous iGOT modules with live NSSTA TPAC cohorts to bridge digital and physical silos.
 
-🧠 Multimodal RAG Engine: Real-time generation of unique, structured MCQ banks ingested from internal MoSPI manuals and multimedia via Whisper ASR.
+## ✨ Key Features
+* 🧠 **Multimodal RAG Engine:** Real-time generation of unique assessments directly from internal department manuals.
+* 🎙️ **GIGW 3.0 & Voice AI:** A bilingual AI chatbot delivering localized, native-language statistical tutoring for field investigators.
+* 📈 **Deterministic FRAC Math:** Precision upskilling with deficit-based training assignments and deterministic benchmark scoring.
+* 🔗 **Source-Cited Feedback:** Instant grading with contextual rationales, deep-linked manual citations, and video timestamps for all answer choices.
+* 🗺️ **Real-Time Recalibration:** Interactive roadmaps that adjust dynamically based on live quiz diagnostics.
 
-📊 Deterministic FRAC Math: Mathematical, zero-hallucination benchmark scoring for highly accurate skill-gap analysis.
+## 🛠️ Tech Stack Architecture
 
-🔍 Source-Cited Feedback: Delivers instant grading with contextual rationales by deep-linking directly to exact manual pages and video timestamps.
+### **Frontend**
+- **Frameworks:** Next.js, React, Flutter, HTML
+- **Styling:** Tailwind CSS, Shaden UI
+- **Language:** TypeScript
 
-🔄 Dual Stream Sync: A decoupled bridge architecture that syncs national digital training (iGOT) with on-site physical schedules (NSSTA) without altering the core iGOT codebase.
+### **Backend & Database**
+- **Server:** Python, Node.js, Express
+- **Database:** MongoDB
+- **Cloud Hosting:** AWS
 
-🗣️ GIGW 3.0 & Voice AI: A scalable, bilingual AI chatbot providing localized statistical tutoring and native-language support for field investigators.
+### **AI & Machine Learning**
+- **Core Intelligence:** Google Gemini
+- **Processing Pipelines:** NLP/LLM microservices, OCR pipeline, Vector search, and Whisper ASR.
 
-🛠️ Tech Stack Architecture
+---
 
-Frontend & UI
+## ⚙️ Setup & Installation :-
 
-Framework: Next.js, React, TypeScript
-
-Mobile/Cross-Platform: Flutter
-
-Styling & Components: Tailwind CSS, Shadcn UI
-
-Backend & Database
-
-Server: Node.js + Express (Core), Python/Flask (AI Microservices)
-
-Database: MongoDB
-
-Infrastructure: AWS Cloud Hosting
-
-AI & Machine Learning
-
-LLM Engine: Google Gemini
-
-Audio/Speech: Whisper ASR (for multimedia ingestion)
-
-Search: Vector search & OCR pipeline for manual indexing
-
-📈 Feasibility & Market Size
-
-SwaRuchi is designed to scale across the government workforce ecosystem:
-
-TAB (Total Addressable Beneficiaries): 46,00,000 Public Sector Workforce (Full Mission Karmayogi Central mandate)
-
-SAB (Serviceable Available Beneficiaries): 25,000 - 40,000 National Statistical Workforce (Central + State)
-
-SOB (Serviceable Obtainable Beneficiaries): 15,000 Core MoSPI & NSSO Personnel
-
-Revenue Streams:
-
-B2G Revenue: MoSPI implementation, DoPT integration fees, and state government deployments.
-
-Secondary Revenue: Content-creation-as-a-service, premium analytics dashboards, and proctored certification fees.
-
-⚙️ Setup & Installation
-
-1. Clone the Project
-
-git clone https://github.com/your-username/swaruchi.git
+### 1. Clone the Project : 
+```bash
+git clone [https://github.com/pranaygumashta/swaruchi.git](https://github.com/pranaygumashta/swaruchi.git)
 cd swaruchi
-
-
-2. Frontend Setup (Next.js)
-
-cd client
-npm install
-npm run dev
-
-
-🌐 Frontend runs on: http://localhost:3000
-
-3. Backend Setup (Node & Python)
-
-Node.js Core Server:
-
-cd server
-npm install
-npm run start
-
-
-Python AI Microservices:
-
-cd ai-service
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-flask run
-
-
-4. Environment Variables
-
-Create .env files in your respective directories with these keys:
-
-MONGODB_URI (Your MongoDB Connection String)
-
-GEMINI_API_KEY (For AI Quiz/Feedback Generation)
-
-AWS_ACCESS_KEY (For cloud storage/hosting)
-
-Built with ❤️ by Code_Cadets 
-
-
-
-
-Developed for Smart India Hackathon 2026 to revolutionize public sector upskilling.
